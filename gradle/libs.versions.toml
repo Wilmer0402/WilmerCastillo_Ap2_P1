@@ -20,6 +20,7 @@ junitKtx = "1.2.1"
 activityKtx = "1.10.1"
 roomRuntime = "2.6.1"
 roomCompiler = "2.6.1"
+navigationComposeAndroid = "2.9.0"
 
 
 [libraries]
@@ -52,6 +53,7 @@ androidx-material3 = { group = "androidx.compose.material3", name = "material3" 
 androidx-junit-ktx = { group = "androidx.test.ext", name = "junit-ktx", version.ref = "junitKtx" }
 androidx-activity-ktx = { group = "androidx.activity", name = "activity-ktx", version.ref = "activityKtx" }
 material3 = { module = "androidx.compose.material3:material3", version.ref = "material3" }
+androidx-navigation-compose-android = { group = "androidx.navigation", name = "navigation-compose-android", version.ref = "navigationComposeAndroid" }
 
 
 [plugins]

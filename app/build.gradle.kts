@@ -53,6 +53,7 @@ dependencies {
     implementation(libs.androidx.room.runtime)
     implementation(libs.androidx.junit.ktx)
     implementation(libs.androidx.activity.ktx)
+    implementation(libs.androidx.navigation.compose.android)
     annotationProcessor(libs.androidx.room.compiler)
     ksp(libs.androidx.room.compiler)
 
