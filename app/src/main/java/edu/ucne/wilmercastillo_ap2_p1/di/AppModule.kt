@@ -1,10 +1,13 @@
 package edu.ucne.wilmercastillo_ap2_p1.di
 
-import androidx.databinding.tool.Context
+import androidx.room.Room
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
+import dagger.hilt.android.qualifiers.ApplicationContext
 import dagger.hilt.components.SingletonComponent
+import javax.inject.Singleton
+import android.content.Context
 import edu.ucne.wilmercastillo_ap2_p1.data.local.Database.TareaDb
 
 

@@ -5,7 +5,6 @@ import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.toRoute
-import edu.ucne.wilmercastillo_ap2_p1.presentation.sistema.SistemaListScreen
 import edu.ucne.wilmercastillo_ap2_p1.tareas.TareaListScreen
 import edu.ucne.wilmercastillo_ap2_p1.tareas.TareaScreen
 

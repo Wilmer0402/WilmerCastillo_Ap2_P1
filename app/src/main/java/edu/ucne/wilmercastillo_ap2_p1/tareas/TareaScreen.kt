@@ -100,22 +100,12 @@ fun TareaBodyScreen(
 
                     Spacer(modifier = Modifier.height(16.dp))
 
-                    OutlinedTextField(
-                        value = uiState.descripcion ?: "",
-                        onValueChange = { onEvent(TareaEvent.DescripcionChange(it)) },
-                        label = { Text("Descripcion de la Tarea") },
-                        placeholder = { Text("Ej: Hacer compras") },
-                        modifier = Modifier.fillMaxWidth(),
-                        colors = OutlinedTextFieldDefaults.colors()
-                    )
-
-                    Spacer(modifier = Modifier.height(16.dp))
 
                     OutlinedTextField(
                         value = uiState.descripcion ?: "",
                         onValueChange = { onEvent(TareaEvent.DescripcionChange(it)) },
                         label = { Text("Descripción") },
-                        placeholder = { Text("Ej: Comprar frutas y verduras") },
+                        placeholder = { Text("Ej: Prueba") },
                         modifier = Modifier.fillMaxWidth(),
                         colors = OutlinedTextFieldDefaults.colors()
                     )

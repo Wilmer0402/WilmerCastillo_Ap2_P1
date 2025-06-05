@@ -63,10 +63,11 @@ fun TareaRow(
         ) {
             Text(text = "Tarea ID: ${tarea.tareaId ?: 0}", style = MaterialTheme.typography.titleSmall)
             Spacer(modifier = Modifier.height(4.dp))
-            Text(text = tarea.descripcion, style = MaterialTheme.typography.titleSmall)
-            Spacer(modifier = Modifier.height(4.dp))
             Text(text = "Descripción: ${tarea.descripcion}", style = MaterialTheme.typography.titleSmall)
             Spacer(modifier = Modifier.height(12.dp))
+            Text(text = "Minutos: ${tarea.minutosId}", style = MaterialTheme.typography.titleSmall)
+            Spacer(modifier = Modifier.height(12.dp))
+
 
             Row(
                 modifier = Modifier.fillMaxWidth(),
