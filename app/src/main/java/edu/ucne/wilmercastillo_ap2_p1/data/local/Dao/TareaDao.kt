@@ -11,7 +11,7 @@ import kotlinx.coroutines.flow.Flow
 @Dao
 interface  TareaDao{
     @Upsert()
-    suspend fun save(tarea: TareaEntity)
+    suspend fun save(tareas: TareaEntity)
     @Query(
         """
     SELECT *
